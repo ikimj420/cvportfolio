@@ -136,7 +136,7 @@
                             <h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
                         </div>
                     </div><!-- col-sm-3 -->
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 center-text">
                         @if(!empty($user))
                             <p class="margin-b-30">{!! $user->aboutMe !!}</p>
                         @endif

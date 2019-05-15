@@ -53,7 +53,7 @@ class Picture extends Model
     public static $rules = [
         'title' => 'required',
         'section' => 'required',
-        'cover_images' => 'required|mimes:jpg,jpeg,png,svg,ico|max:2048'
+        'cover_images' => 'required|max:2048'
     ];
 
     
